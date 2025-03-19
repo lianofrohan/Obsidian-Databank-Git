@@ -86,7 +86,7 @@ const loreData = [
         title: "Faarda Werblix", 
         description: `
         <strong>Gefahren-Einstufung:</strong> geringes Gefahrenpotenzial<br><br>
-        <strong>Sicherheits-Einstufung:</strong> mittel, Sicherheit gewährleisten<br><br>
+        <strong>Sicherheits-Einstufung:</strong> gering<br><br>
         <strong>Spezies:</strong> Halb-Ork<br><br>
         <strong>Herkunft:</strong> Nexos<br><br>
         <strong>Zuletzt bekannter Aufenthaltsort:</strong> Militärstützpunkt VC<br><br>
@@ -100,30 +100,6 @@ const loreData = [
         Beförderung zur Kommandantin nach der Schlacht V2091. <br><br>
          `,
         image: "https://i.pinimg.com/736x/e6/83/01/e683019022396d2180be81cc55ec2a40.jpg"
-    },
-    { 
-        title: "Elowen Nymane", 
-        description: `
-        <strong>Gefahren-Einstufung:</strong> geringes Gefahrenpotenzial<br><br>
-        <strong>Sicherheits-Einstufung:</strong> mittel, Sicherheit gewährleisten<br><br>
-        <strong>Spezies:</strong> Halb-Elf<br><br>
-        <strong>Herkunft:</strong> Nexos<br><br>
-        <strong>Zuletzt bekannter Aufenthaltsort:</strong> DataForge<br><br>
-        <strong>Beruf:</strong> Technikteam des DataForge<br><br>
-        <strong>Alter:</strong> 24 Jahre<br><br>
-        <strong>Hintergrund:</strong><br>
-        Wuchs bei ihrem Onkel in Wohngegend Nähe Energiepunkte auf. Zeigte bereits früh eine ausgeprägte Begeisterung für Technik. 
-        Mit 16 Jahren erregte sie mit ihren Erfindungen die Aufmerksamkeit lokaler Fachkreise. 
-        Mit 18 Jahren von der Kampftruppe rekrutiert, um ihre technischen Fähigkeiten für die Entwicklung von Geräten und Maschinen zur Unterstützung der militärischen Aktivitäten im Randgebiet von Nexos einzubringen.
-        Sie hat seither Maschinen und Geräte für die Kampftruppe entwickelt, insbesondere in den Bereichen Waffen und Verteidigungstechnik. 
-        Ihre Arbeit umfasst sowohl die Konstruktion neuer Systeme als auch die Optimierung bestehender Technologien.<br><br>
-        <strong>Bemerkungen:</strong><br>
-        Trotz ihrer Rolle in der Entwicklung militärischer Geräte hat Nymane wiederholt betont, 
-        dass ihr Fokus nicht in der Kriegsführung liegt. 
-        Diese Haltung könnte langfristig eine Herausforderung für ihre Weiterentwicklung innerhalb der Kampftruppe darstellen. 
-        Sollte weiterhin genau beobachtet werden, um sicherzustellen, dass ihre moralischen Bedenken in Einklang mit den Zielen der Kampftruppe gebracht werden.
-        `,
-        image: "https://i.pinimg.com/736x/6c/3d/4d/6c3d4d683cbf7e172eb5dd7fb518be98.jpg"
     }
 ];
 
