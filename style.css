@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+/* --- Allgemeine Styles --- */
+body {
+    font-family: 'Orbitron', sans-serif;
+    background: url('https://png.pngtree.com/background/20230827/original/pngtree-futuristic-holographic-user-interface-hud-in-abstract-sci-fi-picture-image_4841932.jpg') 
+                no-repeat center center fixed;
+    background-size: cover;
+    color: #0ff;
+    text-align: center;
+    padding: 20px;
+    overflow-y: auto; /* Erlaubt vertikales Scrollen */
+}
+
+/* --- Überschriften --- */
+h1 {
+    font-size: 3em;
+    color: #ff00ff;
+    text-shadow: 0 0 15px #ff00ff, 0 0 30px #ff00ff;
+    margin-bottom: 20px;
+}
+
+/* --- Suchfeld --- */
+input {
+    padding: 12px;
+    width: 80%;
+    margin: 20px 0;
+    background: black;
+    color: #0ff;
+    border: 2px solid #0ff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    box-shadow: 0 0 15px #0ff;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 25px #0ff;
+    transform: scale(1.05);
+}
+
+/* --- Lore-Liste --- */
+#lore-list {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+/* --- Einzelne Lore-Elemente --- */
+.lore-item {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 5px solid #0ff;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #0ff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.lore-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px #0ff;
+}
+
+/* --- MODAL STYLING --- */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/* --- Modal-Inhalt --- */
+.modal-content {
+    position: fixed;
+    top: 10vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    width: 60%;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px #0ff;
+    max-height: 80vh;
+    overflow-y: auto;
+    transition: all 0.3s ease-in-out;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+    max-height: 80vh;
+    overflow: auto;
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #0ff;
+}
+
+.modal-content h2 {
+    color: #ff0;
+    text-shadow: 0 0 10px #ff0;
+}
+
+.modal-content img {
+    width: 30%;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 0 15px #ff00ff;
+}
+
+/* --- Modal-Text --- */
+.modal-content p {
+    color: #ccc;
+    margin-top: 10px;
+}
+
+/* --- Modal-Header mit Close-Button --- */
+.modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.modal-header h2 {
+    color: yellow;
+    margin: 0;
+    flex-grow: 1;
+    text-align: left;
+}
+
+.close {
+    color: #ff0000;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.close:hover {
+    transform: scale(1.2);
+    text-shadow: 0 0 10px #ff0000;
+}
+
+/* --- Bild im Modal --- */
+.modal-image {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 10px;
+    margin-left: 20px;
+    box-shadow: 0 0 10px #0ff;
+}
+
+/* --- Responsives Design --- */
+@media screen and (max-width: 768px) {
+    .modal-content {
+        width: 90%;
+        top: 5vh;
+        max-height: 85vh;
+    }
+
+    input {
+        width: 95%;
+    }
+
+    .lore-item {
+        font-size: 1em;
+    }
+}
