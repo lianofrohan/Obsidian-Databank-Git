@@ -69,6 +69,7 @@ const loreData = [
         <strong>Beruf:</strong> Technikteam des DataForge<br><br>
         <strong>Alter:</strong> 24 Jahre<br><br>
         <strong>Hintergrund:</strong><br>
+        Geboren 2070
         Wuchs bei ihrem Onkel in Wohngegend Nähe Energiepunkte auf. Zeigte bereits früh eine ausgeprägte Begeisterung für Technik. 
         Mit 16 Jahren erregte sie mit ihren Erfindungen die Aufmerksamkeit lokaler Fachkreise. 
         Mit 18 Jahren von der Kampftruppe rekrutiert, um ihre technischen Fähigkeiten für die Entwicklung von Geräten und Maschinen zur Unterstützung der militärischen Aktivitäten im Randgebiet von Nexos einzubringen.
@@ -92,14 +93,55 @@ const loreData = [
         <strong>Zuletzt bekannter Aufenthaltsort:</strong> Militärstützpunkt VC<br><br>
         <strong>Beruf:</strong> Kampftruppe<br><br>
         <strong>Rang:</strong> Kommandant<br><br>
-        <strong>Alter:</strong> 29 Jahre<br><br>
+        <strong>Alter:</strong> 30 Jahre<br><br>
         <strong>Hintergrund:</strong><br>
-        Geboren 2065.
+        Geboren 2064.
         Tochter von General Werblix.
         Eintritt in die Streitkräfte von Nexos im Alter von 17 Jahren.
         Beförderung zur Kommandantin nach der Schlacht V2091. <br><br>
          `,
         image: "https://i.pinimg.com/736x/e6/83/01/e683019022396d2180be81cc55ec2a40.jpg"
+    },
+    { 
+        title: "Caselyn Vorsaldt", 
+        description: `
+        <strong>Gefahren-Einstufung:</strong> geringes Gefahrenpotenzial<br><br>
+        <strong>Sicherheits-Einstufung:</strong> gering<br><br>
+        <strong>Spezies:</strong> Humanoid<br><br>
+        <strong>Herkunft:</strong> Nexos<br><br>
+        <strong>Zuletzt bekannter Aufenthaltsort:</strong> Militärstützpunkt VC-Grenze<br><br>
+        <strong>Beruf:</strong> Kampftruppe<br><br>
+        <strong>Rang:</strong> Kommandant<br><br>
+        <strong>Alter:</strong> 29 Jahre<br><br>
+        <strong>Hintergrund:</strong><br>
+        Geboren 2065.
+        Tochter der Schmiedefamilie Vorsaldt.
+        Eintritt in die Streitkräfte von Nexos im Alter von 17 Jahren.
+        Beförderung zur Kommandantin nach der Schlacht V2096. <br><br>
+         `,
+        image: "https://i.pinimg.com/736x/e5/ca/38/e5ca3826a233dec776130119f43c9847.jpg"
+    },
+    { 
+        title: "Friction Nonac", 
+        description: `
+        <strong>Gefahren-Einstufung:</strong> geringes Gefahrenpotenzial<br><br>
+        <strong>Sicherheits-Einstufung:</strong> gering<br><br>
+        <strong>Spezies:</strong> Humanoid<br><br>
+        <strong>Herkunft:</strong> Stahlschwingen<br><br>
+        <strong>Zuletzt bekannter Aufenthaltsort:</strong> DataForge<br><br>
+        <strong>Beruf:</strong> Soldat der Garde<br><br>
+        <strong>Alter:</strong> 27 Jahre<br><br>
+        <strong>Hintergrund:</strong><br>
+        Geboren 2063.
+        Eltern Hieran Nonac(gestorben 2051) und Eadria Nonac.
+        Eintritt in die Garde im Alter von 18 Jahren. <br><br>
+        <strong>Bemerkungen:</strong><br>
+        Trotz seiner militärischen Karriere (Informationen, dass Nonac 2084 zum Kommandant erhoben werden sollte), 
+        haben uns Gerüchte ereilt, dass Nonac gegen die Systemführung der Stahlschwingen ermittelt. 
+        Diese Haltung könnte einen wichtigen strategischen Vorteil für einen Kampf gegen die Stahlschwingen bedeutet. 
+        Sollte weiterhin genau beobachtet werden, um sicherzustellen, dass seine Informationen uns zu Nutzen kommen können.
+         `,
+        image: "https://i.pinimg.com/736x/2d/73/12/2d73128573550445ad2d187d3272cd08.jpg"
     }
 ];
 
