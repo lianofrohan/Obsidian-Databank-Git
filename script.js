@@ -225,6 +225,97 @@ const loreData = [
         Sie könnte somit sowohl Bedrohung als auch wichtige Informationsquelle sein.
         `,
         image: "https://i.pinimg.com/736x/76/48/63/7648635a6d21c01dabbfd1118b76573f.jpg"
+    },
+    { 
+        title: "Jarnel Vex", 
+        description: `
+        <strong>Gefahren-Einstufung:</strong> gering<br><br>
+        <strong>Sicherheits-Einstufung:</strong> mittel<br><br>
+        <strong>Spezies:</strong> Humanoid<br><br>
+        <strong>Herkunft:</strong> unbekannt<br><br>
+        <strong>Zuletzt bekannter Aufenthaltsort:</strong> Straßen von Nexos<br><br>
+        <strong>Beruf:</strong> Straßenmusiker<br><br>
+        <strong>Alter:</strong> 28 Jahre<br><br>
+        <strong>Hintergrund:</strong><br>
+        Spielt mit einer alten Laute in den Straßen von Nexos. 
+        Über Herkunft und Vergangenheit gibt es keine Informationen.<br><br>
+        <strong>Bemerkungen:</strong><br>
+        Polizeiakte wegen Bettelei und Ruhestörung. 
+        Ansonsten keine Bedrohung, aber oft in ärmeren Vierteln präsent.
+        `
+    },
+    { 
+        title: "Hedra Vorn", 
+        description: `
+        <strong>Gefahren-Einstufung:</strong> geringes Gefahrenpotenzial<br><br>
+        <strong>Sicherheits-Einstufung:</strong> gering<br><br>
+        <strong>Spezies:</strong> Humanoid<br><br>
+        <strong>Herkunft:</strong> Vororte von Nexos<br><br>
+        <strong>Zuletzt bekannter Aufenthaltsort:</strong> Handwerksgasse, Nexos<br><br>
+        <strong>Beruf:</strong> Schneiderin<br><br>
+        <strong>Alter:</strong> 52 Jahre<br><br>
+        <strong>Hintergrund:</strong><br>
+        Arbeitet seit Jahrzehnten als Näherin für Arbeiterkleidung. 
+        Bekannt dafür, dass sie alles reparieren kann, was Stoff hat.<br><br>
+        <strong>Bemerkungen:</strong><br>
+        Unauffällig und pflichtbewusst. 
+        Beliebt bei Nachbarn, aber ohne Einfluss oder Macht.
+        `
+    }, 
+    { 
+        title: "Varek Solven", 
+        description: `
+        <strong>Gefahren-Einstufung:</strong> geringes Gefahrenpotenzial<br><br>
+        <strong>Sicherheits-Einstufung:</strong> gering<br><br>
+        <strong>Spezies:</strong> Humanoid<br><br>
+        <strong>Herkunft:</strong> Nexos<br><br>
+        <strong>Zuletzt bekannter Aufenthaltsort:</strong> Marktviertel von Nexos<br><br>
+        <strong>Beruf:</strong> Gewürzhändler<br><br>
+        <strong>Alter:</strong> 45 Jahre<br><br>
+        <strong>Hintergrund:</strong><br>
+        Führt seit über 20 Jahren einen kleinen Stand für Gewürze und getrocknete Waren. 
+        Bekannt für lautstarkes Feilschen und seine Abneigung gegen Steuern.<br><br>
+        <strong>Bemerkungen:</strong><br>
+        Hat keine bekannte politische oder kriminelle Verstrickung. 
+        Viele Reisende kennen ihn nur als „den lauten Gewürzmann“.
+        `
+    }, 
+    { 
+        title: "Doran Fel", 
+        description: `
+        <strong>Gefahren-Einstufung:</strong> geringes Gefahrenpotenzial<br><br>
+        <strong>Sicherheits-Einstufung:</strong> gering<br><br>
+        <strong>Spezies:</strong> Humanoid<br><br>
+        <strong>Herkunft:</strong> Nexos<br><br>
+        <strong>Zuletzt bekannter Aufenthaltsort:</strong> DataForge<br><br>
+        <strong>Beruf:</strong> Türsteher (Aushilfe)<br><br>
+        <strong>Alter:</strong> 36 Jahre<br><br>
+        <strong>Hintergrund:</strong><br>
+        Früher Tagelöhner, ohne festes Einkommen. Wurde von Shegar gelegentlich angeheuert, 
+        um am Eingang des DataForge für Ruhe zu sorgen.<br><br>
+        <strong>Bemerkungen:</strong><br>
+        Gilt als verlässlich, aber schlicht. Keine besonderen Vorfälle bekannt. 
+        Keine Relevanz über den lokalen Bereich hinaus.
+        `
+    }, 
+    { 
+        title: "Serina Werute", 
+        description: `
+        <strong>Gefahren-Einstufung:</strong> geringes Gefahrenpotenzial<br><br>
+        <strong>Sicherheits-Einstufung:</strong> gering<br><br>
+        <strong>Spezies:</strong> Humanoid<br><br>
+        <strong>Herkunft:</strong> Nexos<br><br>
+        <strong>Zuletzt bekannter Aufenthaltsort:</strong> DataForge<br><br>
+        <strong>Beruf:</strong> Bewohnerin, Gelegenheitsarbeiterin im DataForge<br><br>
+        <strong>Alter:</strong> 31 Jahre<br><br>
+        <strong>Hintergrund:</strong><br>
+        Unspektakuläre Herkunft. Lebt seit mehreren Jahren in unmittelbarer Nähe zum DataForge. 
+        Arbeitet gelegentlich dort in der Küche oder als Aushilfe.<br><br>
+        <strong>Bemerkungen:</strong><br>
+        War gemeinsam mit Cycle in den Vorfall mit dem Tierangriff verwickelt. 
+        Gab dieselbe Aussage wie Cycle ab, dass es sich nicht um einen normalen Straßenhund gehandelt habe. 
+        Ansonsten keine besonderen Auffälligkeiten.
+        `
     }
 ];
 
